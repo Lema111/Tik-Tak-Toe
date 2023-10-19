@@ -1,0 +1,38 @@
+.row {
+    margin-bottom: 5px;
+    resize: none;
+}
+
+.button {
+    background-color: #000000;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-size: 100%;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 30px 30px;
+    resize: none;
+    border: none;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.showFont{
+    color: red;
+}
+.buttonpackpos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    resize: none;   
+    overflow: hidden;
+}
+
+.button:hover {
+    background-color: rgb(80, 79, 79);
+    color: rgb(80, 79, 79);
+}
+.newhover:hover{
+    color: red;
+}
