@@ -198,9 +198,11 @@ function buttontextupdate(){
 function nextplayer(){
   if (player == "O"){
     player = "X"
+      updateLabel();
   }
   else{
     player = "O"
+      updateLabel();
   }
 }
 
