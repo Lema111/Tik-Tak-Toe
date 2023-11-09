@@ -1,1 +1,1 @@
-A Tik Tak Toe game based on HTML
+A multiplayer Tik Tak Toe game based on HTML
