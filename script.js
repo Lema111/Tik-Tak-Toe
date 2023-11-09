@@ -171,7 +171,7 @@ function placebt9() {
 function updateLabel() {
     var label = document.getElementById("Label1");
     enterdtext = document.createElement(player)
-    label.innerHTML = "Spieler " + player + " ist an der Reihe";
+    label.innerHTML = "Spieler " + enterdtext + " ist an der Reihe";
 }
 
 function onClick() {
